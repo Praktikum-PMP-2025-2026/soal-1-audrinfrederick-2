@@ -29,11 +29,11 @@
         printf("TOLAK");
     } else if (izin ==1) {
         printf("MASUK");
-    } else if (izin >= 2 && radiasi <= 2 && (jam >= 6 && jam <= 18)) {
+    } else if (izin == 2 && radiasi <= 2 && (jam >= 8 && jam <= 18)) {
         printf("MASUK"); 
     } else if (izin == 2 ) {
         printf("PEMERIKSAAN");
-    } else if (izin == 3 && radiasi == 0 && suhu < 380) {
+    } else if (izin == 3 && radiasi == 0 && suhu <380) {
         printf("MASUK");
     } else {
         printf("TOLAK");
